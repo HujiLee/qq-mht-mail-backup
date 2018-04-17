@@ -11,6 +11,14 @@
   "author": "hujimiya@yandex.ru",
   "license": "ISC",
   "dependencies": {
-    "is-valid-path": "^0.1.1"
+    "debug": "^3.1.0",
+    "is-valid-path": "^0.1.1",
+    "lib-qq-mht-mail-backup": "^0.0.1"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "devDependencies": {
+    "@types/node": "^9.6.5"
   }
 }
