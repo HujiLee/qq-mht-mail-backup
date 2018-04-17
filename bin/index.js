@@ -12,10 +12,10 @@ let mht_path = process.argv[process.argv.length - 1];
 if (!path.isAbsolute(mht_path)) {
     mht_path = path.join(cwd, mht_path);
 }
-if (!is_valid_path(mht_path)) {
-    _debug(`NOT VALID PATH : ${mht_path} `);
-    process.exit(1);
-}
+// if (!is_valid_path(mht_path)) {
+//     _debug(`NOT VALID PATH : ${mht_path} `);
+//     process.exit(1);
+// }
 if (!fs.existsSync(mht_path)) {
     _debug(`NOT EXITSTS : ${mht_path}`);
     process.exit(1);
