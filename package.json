@@ -2,8 +2,15 @@
   "name": "qq-mht-mail-backup",
   "version": "0.0.1",
   "description": "cli tool to split QQ message .mht file and send as email;Mongodb required;",
-  "main": "./lib/index.js",
+  "main": "./bin/index.js",
   "scripts": {},
+  "bin": {
+    "qq-mht-mail-backup": "bin/index.js"
+  },
+  "preferGlobal": true,
   "author": "hujimiya@yandex.ru",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "is-valid-path": "^0.1.1"
+  }
 }
