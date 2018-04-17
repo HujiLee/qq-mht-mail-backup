@@ -1,6 +1,6 @@
 {
   "name": "qq-mht-mail-backup",
-  "version": "0.0.1.1",
+  "version": "0.0.2",
   "description": "cli tool to split QQ message .mht file and send as email;Mongodb required;",
   "main": "./bin/index.js",
   "scripts": {},
