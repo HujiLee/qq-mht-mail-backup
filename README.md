@@ -6,7 +6,7 @@ npm i qq-mht-mail-backup -g
 ### how to use it
 
 ```bash
-SMTP_SERVER="smtp.mail.ru" MAIL_USER="yourmail@yourdomain" MAIL_PASS="your-pass-word" MAIL_RECEIVERS="mailbox1@yourdomain,mailbox2@yourdomain" qq-mht-mail-backup path/to/mht/file
+SMTP_SERVER="smtp.your.mail.server" MAIL_USER="yourmail@yourdomain" MAIL_PASS="your-pass-word" MAIL_RECEIVERS="mailbox1@yourdomain,mailbox2@yourdomain" qq-mht-mail-backup path/to/mht/file
 ```
 
 ### optional ENV
